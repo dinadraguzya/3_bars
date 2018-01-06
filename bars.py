@@ -20,7 +20,8 @@ def get_smallest_bar(json_data):
 
 
 def calculate_distance(latitude_1, latitude_2, longitude_1, longitude_2):
-    return ((latitude_1 - latitude_2) ** 2 + (longitude_1 - longitude_2) ** 2) ** 0.5
+    distance = ((latitude_1 - latitude_2) ** 2 + (longitude_1 - longitude_2) ** 2) ** 0.5
+    return distance
 
 
 def get_closest_bar(json_data, latitude, longitude):
